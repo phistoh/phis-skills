@@ -1,0 +1,645 @@
+{
+	"add_stamina": {
+		"title": "Slower health drain",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.stamina",
+					"value": 8
+				}
+			}
+		]
+	},
+	"add_melee_damage": {
+		"title": "Additional melee damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"add_ranged_damage": {
+		"title": "Additional ranged damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"add_healing": {
+		"title": "Receive double healing",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.healing",
+					"value": 2,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_magic_resistance": {
+		"title": "+5% Magic resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.magic_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_melee_resistance": {
+		"title": "+5% melee resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_ranged_resistance": {
+		"title": "+5% ranged resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_pickaxe_speed": {
+		"title": "+5% mining speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.pickaxe_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_axe_speed": {
+		"title": "+5% wood-chopping speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.axe_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_shovel_speed": {
+		"title": "+5% digging speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.shovel_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_sprinting_speed": {
+		"title": "+5% sprinting speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_armor_shred": {
+		"title": "+5% armor shred",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.armor_shred",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"add_health": {
+		"title": "+2 Hearts",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"add_luck": {
+		"title": "+2 Luck",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"poison_immunity": {
+		"title": "Immunity to poison",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "poison"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:poison_immunity"
+				}
+			}
+		]
+	},
+	"sneaking_invisibility": {
+		"title": "Invisibility while sneaking",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "invisibility"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:sneaking_invisibility"
+				}
+			}
+		]
+	},
+	"fall_damage_immunity": {
+		"title": "Immunity to fall damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "levitation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:fall_damage_immunity"
+				}
+			}
+		]
+	},
+	"additional_diamonds": {
+		"title": "Chance to find diamonds when mining coal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "levitation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:additional_diamonds"
+				}
+			}
+		]
+	},
+	"poison_cloud_death": {
+		"title": "Leave a cloud of poison when you die",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "poison"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:poison_cloud_death"
+				}
+			}
+		]
+	},
+	"life_on_kill": {
+		"title": "Heal when you kill an entity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:life_on_kill"
+				}
+			}
+		]
+	},
+	"speed_after_fall": {
+		"title": "Gain a short speed boost after falling",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:speed_after_fall"
+				}
+			}
+		]
+	},
+	"second_wind": {
+		"title": "Gain regeneration after taking damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:second_wind"
+				}
+			}
+		]
+	},
+	"wither_attacker": {
+		"title": "Wither attackers",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wither"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:wither_attacker"
+				}
+			}
+		]
+	},
+	"purify": {
+		"title": "Gain the ability to clear negative status effects",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "water_breathing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:purify"
+				}
+			}
+		]
+	},
+	"aoe_heal": {
+		"title": "Gain the ability to heal others",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:aoe_heal"
+				}
+			}
+		]
+	},
+	"iron_stomach": {
+		"title": "Gain damage resistance while eating",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:iron_stomach"
+				}
+			}
+		]
+	},
+	"cheat_death": {
+		"title": "Cheat death",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:cheat_death"
+				}
+			}
+		]
+	},
+	"natural_armor": {
+		"title": "Gain natural armor",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:natural_armor"
+				}
+			}
+		]
+	},
+	"night_vision": {
+		"title": "Gain the ability to toggle night vision",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "night_vision"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:night_vision"
+				}
+			}
+		]
+	},
+	"magma_immunity": {
+		"title": "Do not take damage when standing on magma blocks",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "fire_resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:magma_immunity"
+				}
+			}
+		]
+	},
+	"ender_chest": {
+		"title": "Gain the ability to open your Ender chest at will",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "darkness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:ender_chest"
+				}
+			}
+		]
+	},
+	"double_jump": {
+		"title": "Gain the ability to double jump",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "phis_origins:double_jump"
+				}
+			}
+		]
+	}
+}
