@@ -1,11 +1,12 @@
 {
 	"unlocked_by_default": true,
-	"title": "General",
+	"title": "Skills",
 	"icon": {
 		"type": "item",
 		"data": {
 			"item": "writable_book"
 		}
 	},
-	"background": "textures/gui/advancements/backgrounds/adventure.png"
+	"background": "textures/gui/advancements/backgrounds/adventure.png",
+	"spent_points_limit": 50
 }
