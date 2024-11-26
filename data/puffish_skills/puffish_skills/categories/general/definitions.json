@@ -1,4 +1,37 @@
 {
+	"root_lucky": {
+		"title": "Off to a lucky start",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"effect": "minecraft:potato"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.fortune",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
 	"add_stamina": {
 		"title": "Slower health drain",
 		"frame": {

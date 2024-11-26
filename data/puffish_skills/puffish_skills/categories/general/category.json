@@ -1,10 +1,10 @@
 {
 	"unlocked_by_default": true,
-	"title": "Combat",
+	"title": "General",
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "diamond_sword"
+			"item": "writable_book"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/adventure.png"
