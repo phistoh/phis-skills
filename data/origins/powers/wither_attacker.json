@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:invert",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:wither",
+                "duration": 80,
+                "amplifier": 1
+            }
+        }
+    },
+    "cooldown": 600,
+    "name": "Withering Touch",
+    "description": "A power that applies the Wither effect to entities attacking the wielder."
+}

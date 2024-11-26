@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_on_death",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:spawn_effect_cloud",
+                    "radius": 10.0,
+                    "wait_time": 20,
+                    "effect": {
+                        "effect": "minecraft:poison",
+                        "amplifier": 1,
+                        "duration": 200
+                    }
+                }
+            }
+        ]
+    },
+    "name": "Parting Gift",
+    "description": "A power that let's the wielder spawn a poisonous cloud when they die."
+}

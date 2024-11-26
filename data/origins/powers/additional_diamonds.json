@@ -1,0 +1,27 @@
+{
+    "type": "origins:action_on_block_break",
+    "block_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:diamond\",Count:1}}"
+        },
+        "chance": 0.02
+    },
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "minecraft:coal_ore"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:deepslate_coal_ore"
+            }
+        ]
+    },
+    "only_when_harvested": true,
+    "name": "Miner's Luck",
+    "description": "A power that gives the wielder sometimes diamonds, when they mine coal."
+}

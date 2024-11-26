@@ -1,0 +1,33 @@
+{
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 100,
+                    "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": {
+                    "type": "minecraft:dust",
+                    "params": "0.616 0.912 0.814 2"
+                },
+                "count": 8,
+                "speed": 0.0,
+                "force": true
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": ">",
+        "compare_to": 4
+    },
+    "name": "Speedy Getaway",
+    "description": "A power that gives the wielder a short speed boost after falling."
+}

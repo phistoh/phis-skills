@@ -1,0 +1,8 @@
+{
+    "type": "origins:invisibility",
+    "condition": {
+        "type": "origins:sneaking"
+    }
+    "name": "Enhanced Sneaking",
+    "description": "A power that renders the wielder invisible while they are sneaking."
+}
