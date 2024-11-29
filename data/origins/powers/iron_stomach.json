@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 10,
+            "amplifier": 3
+        }
+    },
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "trigger": "during",
+    "name": "Iron Stomach",
+    "description": "A power that gives the wielder resistence while eating."
+}

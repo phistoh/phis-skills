@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "hotFloor"
+    },
+    "name": "Cold Feet",
+    "description": "A power that gives the wielder the ability to stand on magma."
+}

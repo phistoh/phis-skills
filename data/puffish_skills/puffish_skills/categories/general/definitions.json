@@ -544,7 +544,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "health_boost"
+				"effect": "instant_health"
 			}
 		},
 		"rewards": [

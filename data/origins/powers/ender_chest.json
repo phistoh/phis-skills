@@ -1,0 +1,11 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:ender_chest"
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "Ender Chest",
+    "description": "A power that gives the wielder the ability to open their Ender chest anywhere."
+}

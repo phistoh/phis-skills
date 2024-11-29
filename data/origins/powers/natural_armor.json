@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Additional Armor",
+        "attribute": "minecraft:generic.armor",
+        "value": 5,
+        "operation": "addition"
+    },
+    "name": "Natrual Armor",
+    "description": "A power that gives the wielder natural armor."
+}

@@ -1,0 +1,75 @@
+{
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:trigger_cooldown",
+                "power": "origins:cheat_death_cooldown"
+            },
+            {
+                "type": "origins:clear_effect"
+            },
+            {
+                "type": "origins:heal",
+                "amount": 60
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 4,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle dust_color_transition 1.000 0.000 0.000 1 1.000 0.000 0.000 ~ ~1 ~ 0.6 0.6 0.6 1 700 normal"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 8,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle dust_color_transition 1.000 0.000 0.000 1 1.000 0.000 0.000 ~ ~1 ~ 0.7 0.7 0.7 1 700 normal"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 12,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle dust_color_transition 1.000 0.000 0.000 1 1.000 0.000 0.000 ~ ~1 ~ 0.8 0.8 0.8 1 700 normal"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 16,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle dust_color_transition 1.000 0.000 0.000 1 1.000 0.000 0.000 ~ ~1 ~ 0.9 0.9 0.9 1 700 normal"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 20,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle dust_color_transition 1.000 0.000 0.000 1 1.000 0.000 0.000 ~ ~1 ~ 1.0 1.0 1.0 1 700 normal"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 20,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:large_smoke ~ ~1 ~ 0.5 0.5 0.5 1 1000 normal"
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins:cheat_death_cooldown",
+        "comparison": "==",
+        "compare_to": 0
+    },
+    "name": "Cheat Death",
+    "description": "Let's you sometimes cheat death."
+}

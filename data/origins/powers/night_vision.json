@@ -1,0 +1,8 @@
+{
+    "type": "origins:toggle_night_vision",
+    "key": {
+        "key": "key.origins.spectatorOutlines"
+    },
+    "name": "Purify",
+    "description": "A power that gives the wielder night vision."
+}
